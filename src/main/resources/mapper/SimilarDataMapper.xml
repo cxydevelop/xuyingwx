@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xuying.wx.web.mapper.SimilarDataMapper">
+	<!-- <select id="selectAll" resultType="com.xuying.wx.web.model.SimilarData">
+		select
+			*
+		from bdanlp_similar_data
+		where catalog_Id = 'abc'
+	</select>
+	<insert id="inserOne" parameterType="com.xuying.wx.web.model.SimilarData">
+		INSERT INTO bdanlp_similar_data 
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			<if test="similarData.catalogId != null" >
+				catalog_Id,
+			</if>
+			<if test="similarData.dataId != null" >
+				data_Id,
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="similarData.catalogId != null" >
+				#{similarData.catalogId},
+			</if>
+			<if test="similarData.dataId != null" >
+				#{similarData.dataId},
+			</if>
+		</trim>
+	</insert> -->
+</mapper>
